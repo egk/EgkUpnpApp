@@ -14,6 +14,9 @@
 		38F6A38D1D33E22F0010A576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F6A38B1D33E22F0010A576 /* LaunchScreen.storyboard */; };
 		38F6A3981D33E22F0010A576 /* EgkUpnpAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6A3971D33E22F0010A576 /* EgkUpnpAppTests.swift */; };
 		38F6A3A31D33E22F0010A576 /* EgkUpnpAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6A3A21D33E22F0010A576 /* EgkUpnpAppUITests.swift */; };
+		ADAB15043B64A61AD3CF3399 /* Pods_EgkUpnpApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E085834F4A67DDD72EEC0CC9 /* Pods_EgkUpnpApp.framework */; };
+		BBE18B02822D91F1F0CCB113 /* Pods_EgkUpnpAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625BB33EE927444A5E961F9B /* Pods_EgkUpnpAppUITests.framework */; };
+		DDB5F8E3574EBAA4FD7DA2E6 /* Pods_EgkUpnpAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF021BA20CF375DEF549CD61 /* Pods_EgkUpnpAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B900DD5589F02DF0B88D4EE /* Pods-EgkUpnpAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EgkUpnpAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EgkUpnpAppTests/Pods-EgkUpnpAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		138716611670B43A508CA7C4 /* Pods-EgkUpnpAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EgkUpnpAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EgkUpnpAppUITests/Pods-EgkUpnpAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		21EB000D64D38E3F246EC76D /* Pods-EgkUpnpApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EgkUpnpApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EgkUpnpApp/Pods-EgkUpnpApp.debug.xcconfig"; sourceTree = "<group>"; };
 		38F6A37F1D33E22F0010A576 /* EgkUpnpApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EgkUpnpApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F6A3821D33E22F0010A576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38F6A3841D33E22F0010A576 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		38F6A39E1D33E22F0010A576 /* EgkUpnpAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EgkUpnpAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F6A3A21D33E22F0010A576 /* EgkUpnpAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EgkUpnpAppUITests.swift; sourceTree = "<group>"; };
 		38F6A3A41D33E22F0010A576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		625BB33EE927444A5E961F9B /* Pods_EgkUpnpAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EgkUpnpAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7947851D77B14EC5D74C4F0E /* Pods-EgkUpnpAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EgkUpnpAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EgkUpnpAppTests/Pods-EgkUpnpAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BAC14E4B378005A11C71C67 /* Pods-EgkUpnpApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EgkUpnpApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-EgkUpnpApp/Pods-EgkUpnpApp.release.xcconfig"; sourceTree = "<group>"; };
+		BF021BA20CF375DEF549CD61 /* Pods_EgkUpnpAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EgkUpnpAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C988C8028165FEE4BF434CDA /* Pods-EgkUpnpAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EgkUpnpAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EgkUpnpAppUITests/Pods-EgkUpnpAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E085834F4A67DDD72EEC0CC9 /* Pods_EgkUpnpApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EgkUpnpApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADAB15043B64A61AD3CF3399 /* Pods_EgkUpnpApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB5F8E3574EBAA4FD7DA2E6 /* Pods_EgkUpnpAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBE18B02822D91F1F0CCB113 /* Pods_EgkUpnpAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				38F6A3961D33E22F0010A576 /* EgkUpnpAppTests */,
 				38F6A3A11D33E22F0010A576 /* EgkUpnpAppUITests */,
 				38F6A3801D33E22F0010A576 /* Products */,
+				5F9B1014E3D71C7FA9444BC0 /* Pods */,
+				F630CC4B931665CABD39619B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = EgkUpnpAppUITests;
 			sourceTree = "<group>";
 		};
+		5F9B1014E3D71C7FA9444BC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21EB000D64D38E3F246EC76D /* Pods-EgkUpnpApp.debug.xcconfig */,
+				8BAC14E4B378005A11C71C67 /* Pods-EgkUpnpApp.release.xcconfig */,
+				7947851D77B14EC5D74C4F0E /* Pods-EgkUpnpAppTests.debug.xcconfig */,
+				0B900DD5589F02DF0B88D4EE /* Pods-EgkUpnpAppTests.release.xcconfig */,
+				C988C8028165FEE4BF434CDA /* Pods-EgkUpnpAppUITests.debug.xcconfig */,
+				138716611670B43A508CA7C4 /* Pods-EgkUpnpAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F630CC4B931665CABD39619B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E085834F4A67DDD72EEC0CC9 /* Pods_EgkUpnpApp.framework */,
+				BF021BA20CF375DEF549CD61 /* Pods_EgkUpnpAppTests.framework */,
+				625BB33EE927444A5E961F9B /* Pods_EgkUpnpAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38F6A3A71D33E22F0010A576 /* Build configuration list for PBXNativeTarget "EgkUpnpApp" */;
 			buildPhases = (
+				75068854E995909819A5283D /* 📦 Check Pods Manifest.lock */,
 				38F6A37B1D33E22F0010A576 /* Sources */,
 				38F6A37C1D33E22F0010A576 /* Frameworks */,
 				38F6A37D1D33E22F0010A576 /* Resources */,
+				D7DB0F13528230891F54E996 /* 📦 Embed Pods Frameworks */,
+				9611B63CF0B7E5AC41CB5E87 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38F6A3AA1D33E22F0010A576 /* Build configuration list for PBXNativeTarget "EgkUpnpAppTests" */;
 			buildPhases = (
+				58B9E5AF3C7A73395A676ECE /* 📦 Check Pods Manifest.lock */,
 				38F6A38F1D33E22F0010A576 /* Sources */,
 				38F6A3901D33E22F0010A576 /* Frameworks */,
 				38F6A3911D33E22F0010A576 /* Resources */,
+				33BFE5BAF31162E6A488968B /* 📦 Embed Pods Frameworks */,
+				668F0B62F47E898B4AF0207D /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38F6A3AD1D33E22F0010A576 /* Build configuration list for PBXNativeTarget "EgkUpnpAppUITests" */;
 			buildPhases = (
+				72799AD8059FF5045BAFF475 /* 📦 Check Pods Manifest.lock */,
 				38F6A39A1D33E22F0010A576 /* Sources */,
 				38F6A39B1D33E22F0010A576 /* Frameworks */,
 				38F6A39C1D33E22F0010A576 /* Resources */,
+				ED945A35B92667275A7CDDD1 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +301,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33BFE5BAF31162E6A488968B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EgkUpnpAppTests/Pods-EgkUpnpAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58B9E5AF3C7A73395A676ECE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		668F0B62F47E898B4AF0207D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EgkUpnpAppTests/Pods-EgkUpnpAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72799AD8059FF5045BAFF475 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75068854E995909819A5283D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9611B63CF0B7E5AC41CB5E87 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EgkUpnpApp/Pods-EgkUpnpApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7DB0F13528230891F54E996 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EgkUpnpApp/Pods-EgkUpnpApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED945A35B92667275A7CDDD1 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EgkUpnpAppUITests/Pods-EgkUpnpAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		38F6A37B1D33E22F0010A576 /* Sources */ = {
@@ -402,6 +573,7 @@
 		};
 		38F6A3A81D33E22F0010A576 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21EB000D64D38E3F246EC76D /* Pods-EgkUpnpApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EgkUpnpApp/Info.plist;
@@ -414,6 +586,7 @@
 		};
 		38F6A3A91D33E22F0010A576 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BAC14E4B378005A11C71C67 /* Pods-EgkUpnpApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EgkUpnpApp/Info.plist;
@@ -427,6 +600,7 @@
 		};
 		38F6A3AB1D33E22F0010A576 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7947851D77B14EC5D74C4F0E /* Pods-EgkUpnpAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = EgkUpnpAppTests/Info.plist;
@@ -440,6 +614,7 @@
 		};
 		38F6A3AC1D33E22F0010A576 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B900DD5589F02DF0B88D4EE /* Pods-EgkUpnpAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = EgkUpnpAppTests/Info.plist;
@@ -454,6 +629,7 @@
 		};
 		38F6A3AE1D33E22F0010A576 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C988C8028165FEE4BF434CDA /* Pods-EgkUpnpAppUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = EgkUpnpAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -466,6 +642,7 @@
 		};
 		38F6A3AF1D33E22F0010A576 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 138716611670B43A508CA7C4 /* Pods-EgkUpnpAppUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = EgkUpnpAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
